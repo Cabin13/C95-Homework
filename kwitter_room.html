@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kwitter Room</title>
+    <link rel="stylesheet" type="text/css" href="kwitter_room.css">
+    <script src="kwitter_room.js"></script>
+</head>
+<body>
+<div class="container">
+
+	<center>
+		<button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout()">Logout</button>
+		<h1 class="header">	
+			Kwitter
+		</h1>
+		<h3 id="user_name"></h3>
+		<div class="form-group input_div_room_page">
+		<label>#Add Room:</label>
+		<br>
+        <br>
+		<input type="text" id="room_name">
+        <br>
+        <br>
+		</div>
+		<button class="btn btn-success" onclick="add_room()">Add Room</button>
+		
+	</center>
+</div>
+<script src="kwitter_room.js"></script>
+</body>
+</html>
